@@ -1,6 +1,6 @@
 {% set name = "libjpeg-turbo" %}
 {% set version = "2.0.4" %}
-{% set sha256 = "9310613182cb617ce300a4079bc7fa13f2f31a99c12601af47f77657c0dd8537" %}
+{% set sha256 = "7777c3c19762940cff42b3ba4d7cd5c52d1671b39a79532050c85efb99079064" %}
 
 package:
   name: {{ name|lower }}
