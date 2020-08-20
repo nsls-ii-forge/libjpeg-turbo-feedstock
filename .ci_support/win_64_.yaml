@@ -4,3 +4,5 @@ channel_sources:
 - nsls2forge,defaults
 channel_targets:
 - nsls2forge main
+target_platform:
+- win-64
