@@ -1,7 +1,7 @@
 About libjpeg-turbo
 ===================
 
-Home: http://www.libjpeg-turbo.org/
+Home: https://libjpeg-turbo.org
 
 Package license: IJG, modified 3-clause BSD and zlib
 

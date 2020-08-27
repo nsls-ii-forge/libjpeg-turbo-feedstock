@@ -31,7 +31,9 @@ test:
     - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg
 
 about:
-  home: http://www.libjpeg-turbo.org/
+  home: https://libjpeg-turbo.org
   license: IJG, modified 3-clause BSD and zlib
   license_file: LICENSE.md
   summary: IJG JPEG compliant runtime library with SIMD and other optimizations
+  doc_url: https://libjpeg-turbo.org
+  dev_url: https://github.com/libjpeg-turbo/libjpeg-turbo
