@@ -1,6 +1,6 @@
 {% set name = "libjpeg-turbo" %}
-{% set version = "2.0.4" %}
-{% set sha256 = "7777c3c19762940cff42b3ba4d7cd5c52d1671b39a79532050c85efb99079064" %}
+{% set version = "2.0.5" %}
+{% set sha256 = "b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,9 @@ test:
     - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg
 
 about:
-  home: http://www.libjpeg-turbo.org/
+  home: https://libjpeg-turbo.org
   license: IJG, modified 3-clause BSD and zlib
   license_file: LICENSE.md
   summary: IJG JPEG compliant runtime library with SIMD and other optimizations
+  doc_url: https://libjpeg-turbo.org
+  dev_url: https://github.com/libjpeg-turbo/libjpeg-turbo
