@@ -9,6 +9,6 @@ channel_sources:
 channel_targets:
 - nsls2forge main
 docker_image:
-- nsls2/nsls2forge:latest
+- quay.io/condaforge/linux-anvil-comp7
 target_platform:
 - linux-64
